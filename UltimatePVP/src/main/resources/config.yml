@@ -1,0 +1,29 @@
+#Disable ender pearl damage?
+disable-enderpearl-damage: true
+#Update all players locations per this amount of ticks. 20 = 1 second.
+update-rate: 50
+#Income rate - give income after this amount of ticks. Default is 5 minutes.
+income-rate: 360
+#Worlds exempt from disabling any commands.
+exempt-worlds:
+  - Spawn
+  - world_nether
+  - world_the_end
+  
+active-worlds:
+	- world
+#Faction cover distance (blocks):
+faction-cover-distance: 100
+#Player cover distance (blocks):
+player-cover-distance: 50
+#Disable water and lava placement in enemy factions?
+disable-bucket-placing: true
+#enable faction homes? This will override any other home commands.
+enable-homes: false
+#block health
+block-health:
+  OBSIDIAN: 10
+  BRICKS: 5
+  COBBLESTONE: 2
+  NETHER_BRICKS: 3
+  IRON_DOOR: 7

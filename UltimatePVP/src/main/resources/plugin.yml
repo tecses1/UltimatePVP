@@ -1,0 +1,21 @@
+name: UltimatePVP
+main: io.github.tecses1.UltimatePVP.Main
+version: 1.0
+description: The Ultimate faction PVP plugin.
+api-version: 1.16
+commands:
+   upvp:
+     description: Main command for UltimatePVP. 
+     usage: help with /upvp help
+     permission: ultimatePVP.main
+     permission-message: You don't have permission for that command.
+   faction:
+     description: Command for player factions.
+     usage: help with /faction help
+     permission: ultimatePVP.faction
+     permission-message: You don't have permission for that command.
+   f:
+     description: Command for player factions shortened.
+     usage: help with /faction help
+     permission: ultimatePVP.faction
+     permission-message: You don't have permission for that command.
